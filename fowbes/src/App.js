@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Fuck you
+          L
         </a>
       </header>
     </div>
