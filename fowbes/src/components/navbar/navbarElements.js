@@ -21,11 +21,24 @@ export const NavLink = styled(Link)`
     padding: 0 2rem;
     height: 100%;
     cursor: pointer;
-    border: 1px solid transparent;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
     &:hover {
-        color: #FFD700; /* Change to your desired hover color */
+        color: #727272; /* Change to your desired hover color */
         font-size: 1.2rem;
-        border-color: #FFD700;
+        border-color: #727272;
+        font-weight: 700;
+        animation: bounce 0.5s infinite alternate;
+    }
+
+    @keyframes bounce{
+        0% {
+            transform: translateY(2px);
+        }
+        100% {
+            transform: translateY(-2px);
+        }
     }
 `;
 
