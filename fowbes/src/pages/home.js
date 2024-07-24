@@ -12,7 +12,7 @@ const Home = () => {
                 height: "100vh",
             }}
         >
-            <h1 className=" text-5xl, font-bold, ">
+            <h1 className=" font-bold, text-5xl ">
                 Fowbes.
             </h1>
         </div>
