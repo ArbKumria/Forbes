@@ -1,22 +1,52 @@
 import React from "react";
 //how to center text on page using css
-
+import "./scroll.css";
 
 const Home = () => {
     return (
-        <div
-            style={{
-                display: "flex",
-                justifyContent: "centre",
-                alignItems: "centre",
-                height: "100vh",
-            }}
-        >
-            <h1 className=" font-bold, text-5xl ">
-                Fowbes.
-            </h1>
+    <div className=" main__container">
+      <section className="enable-animation">
+        <div className="marquee">
+          <ul className="marquee__content">
+            <div className=" marquee__item">
+              <img src="/images/pepe_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/boden_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/powsche_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/wif_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/ponke_mag_cover.png" alt="" />
+            </div>
+          </ul>
+
+          <ul aria-hidden="true" className="marquee__content">
+          <div className=" marquee__item">
+              <img src="/images/pepe_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/boden_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/powsche_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/wif_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/ponke_mag_cover.png" alt="" />
+            </div>
+          </ul>
         </div>
+      </section>
+    </div>
     );
+
 };
 
 export default Home;
