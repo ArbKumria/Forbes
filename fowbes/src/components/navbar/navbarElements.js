@@ -13,10 +13,16 @@ export const Nav = styled.nav`
     /* justify-content: flex-start; */
 `;
 
+export const LogoImage = styled.img`
+    width: auto; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 1px; /* Add some spacing */
+`;
+
 export const NavLink = styled(Link)`
     @font-face {
         font-family: 'Raleway';
-        src: url('../fonts/static/Raleway-Medium.ttf') format('truetype');
+        src: url('/fonts/static/Raleway-Medium.ttf') format('truetype');
         /* Add other font formats (e.g., woff, woff2) if available */
     }
 
