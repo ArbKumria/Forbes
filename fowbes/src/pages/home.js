@@ -4,7 +4,8 @@ import "./scroll.css";
 
 const Home = () => {
     return (
-    <div className=" main__container">
+    <div className=" main__container"> 
+      <img className="logo" src="/images/Fowbes2.png" alt=""/>
       <section className="enable-animation">
         <div className="marquee">
           <ul className="marquee__content">
