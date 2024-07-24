@@ -14,7 +14,6 @@ const Navbar = () => {
             <LogoImage src="/images/F.png" alt="Logo" />
             <LogoImage src="/images/Fowbes.png" alt="Logo" />
             <LogoImage src="/images/Fowbes.png" alt="Logo" />
-            <LogoImage src="/images/Fowbes.png" alt="Logo" />
                 <Bars />
 
                 <NavMenu>

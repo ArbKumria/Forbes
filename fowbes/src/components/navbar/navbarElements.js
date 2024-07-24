@@ -96,7 +96,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
     display: flex;
     align-items: center;
-    margin-left: auto;
+    margin-left: 10px;
     /* Second Nav */
     /* margin-right: 24px; */
     /* Third Nav */
