@@ -23,21 +23,45 @@ export const NavLink = styled(Link)`
     cursor: pointer;
     border: 3px solid transparent;
     border-radius: 10px;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, background 0.3s ease;
     &:hover {
-        color: #727272; /* Change to your desired hover color */
+        color: #4D4E50; /* Change to your desired hover color */
         font-size: 1.2rem;
         border-color: #727272;
         font-weight: 700;
-        animation: bounce 0.5s infinite alternate;
+        animation: bounceAndFlash 0.5s ease infinite alternate;
+        background: linear-gradient(90deg, #FFFFFF, #727272);
     }
 
-    @keyframes bounce{
+    @keyframes bounceAndFlash {
         0% {
             transform: translateY(2px);
+            background: linear-gradient(90deg, #FFFFFF, #E1E0E8);
+        }
+        5% {
+            background: linear-gradient(90deg, #E1E0E8, #B4B4B4);
+        }
+        15% {
+            background: linear-gradient(90deg, #B4B4B4, #BAB9C2);
+        }
+        25% {
+            background: linear-gradient(90deg, #BAB9C2, #595959)
+        }
+        50% {
+            background: linear-gradient(90deg, #595959, #595959);
+        }
+        75% {
+            background: linear-gradient(90deg, #595959, #BAB9C2)
+        }
+        85% {
+            background: linear-gradient(90deg, #BAB9C2, #B4B4B4);
+        }
+        95% {
+            background: linear-gradient(90deg, #B4B4B4, #E1E0E8)
         }
         100% {
             transform: translateY(-2px);
+            background: linear-gradient(90deg, #E1E0E8, #FFFFFF);
         }
     }
 `;
