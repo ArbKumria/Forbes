@@ -14,23 +14,30 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
+    @font-face {
+        font-family: 'Raleway';
+        src: url('../fonts/static/Raleway-Medium.ttf') format('truetype');
+        /* Add other font formats (e.g., woff, woff2) if available */
+    }
+
     color: #FFFFFF;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 2rem;
     height: 100%;
+    font-family: 'Raleway', sans-serif;
     cursor: pointer;
     border: 3px solid transparent;
     border-radius: 10px;
-    transition: transform 0.2s ease, background 0.3s ease;
+    transition: transform 0.2s ease, background 2s ease, color 0.5s ease;
     &:hover {
         color: #4D4E50; /* Change to your desired hover color */
         font-size: 1.2rem;
+        text-shadow: 0 0 10px silver;
         border-color: #727272;
         font-weight: 700;
         animation: bounceAndFlash 0.5s ease infinite alternate;
-        background: linear-gradient(90deg, #FFFFFF, #727272);
     }
 
     @keyframes bounceAndFlash {
