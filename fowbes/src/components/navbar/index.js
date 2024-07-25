@@ -4,12 +4,16 @@ import {
     NavLink,
     Bars,
     NavMenu,
+    LogoImage,
 } from "./navbarElements";
 
 const Navbar = () => {
     return (
         <>
             <Nav>
+            <LogoImage src="/images/F.png" alt="Logo" />
+            <LogoImage src="/images/Fowbes.png" alt="Logo" />
+            <LogoImage src="/images/Fowbes.png" alt="Logo" />
                 <Bars />
 
                 <NavMenu>
