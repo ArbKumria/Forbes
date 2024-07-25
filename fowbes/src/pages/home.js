@@ -24,6 +24,12 @@ const Home = () => {
             <div className=" marquee__item">
               <img src="/images/ponke_mag_cover.png" alt="" />
             </div>
+            <div className=" marquee__item">
+              <img src="/images/duck_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/slerf_mag_cover.png" alt="" />
+            </div>
           </ul>
 
           <ul aria-hidden="true" className="marquee__content">
@@ -41,6 +47,12 @@ const Home = () => {
             </div>
             <div className=" marquee__item">
               <img src="/images/ponke_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/duck_mag_cover.png" alt="" />
+            </div>
+            <div className=" marquee__item">
+              <img src="/images/slerf_mag_cover.png" alt="" />
             </div>
           </ul>
         </div>
