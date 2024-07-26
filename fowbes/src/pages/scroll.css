@@ -7,6 +7,12 @@ body {
     background: #0F0E1A;
   }
   
+@font-face {
+    font-family: 'Raleway';
+    src: "/fonts/static/Raleway-Medium.ttf" format('truetype');
+    /* Add other font formats (e.g., woff, woff2) if available */
+}
+
   .main__container {
     max-width: 1000px;
     margin-inline: auto;
@@ -62,3 +68,113 @@ body {
   .enable-animation .marquee__content {
     animation: scroll 10s linear infinite;
   }
+
+.logo {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.button {
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    font-family: "Raleway", "sans-serif";
+    font-size: 25px;
+    font-weight: 1000;
+
+    position: relative; /* Add this */
+
+
+    opacity: 0.5; /* Initial opacity */
+    animation: flash 0.8s ease infinite alternate;
+    
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.button button {
+    margin-right: 55px;
+    margin-left: 55px;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 0 2rem;
+    border-color: white;
+
+    &:hover {
+        color: silver; /* Change to your desired hover color */
+        border-color: silver;
+        text-shadow: 0 0 10px silver;
+        font-weight: 1200;
+        animation: move 0.5s ease infinite alternate;
+    }
+
+    @keyframes move {
+        0% {
+            background: linear-gradient(90deg, #FFFFFF, #E1E0E8);
+        }
+        5% {
+            background: linear-gradient(90deg, #E1E0E8, #B4B4B4);
+        }
+        15% {
+            background: linear-gradient(90deg, #B4B4B4, ##E1E0E8);
+        }
+        25% {
+            background: linear-gradient(90deg, #E1E0E8, #FFFFFF)
+        }
+        50% {
+            background: linear-gradient(90deg, #FFFFFF, #FFFFFF);
+        }
+        75% {
+            background: linear-gradient(90deg, #FFFFFF, #E1E0E8)
+        }
+        85% {
+            background: linear-gradient(90deg, #E1E0E8, #B4B4B4);
+        }
+        95% {
+            background: linear-gradient(90deg, #B4B4B4, #E1E0E8)
+        }
+        100% {
+            background: linear-gradient(90deg, #E1E0E8, #FFFFFF);           
+        }
+    }
+}
+
+.logo2 {
+    margin-left: 50px;
+    height: 300px;
+    margin-top: 0px;
+    animation: flash 0.8s ease infinite alternate;
+}
+
+.text-about {
+    color: silver;
+    font-family: "Raleway", "sans-serif";
+}
+
+#heading {
+    margin-top: 0;
+    font-size: 60px;
+    margin-left: 50px;
+    font-weight: 1000;
+    animation: flash 0.8s ease infinite alternate;
+}
+
+#body {
+    margin-left: 35px;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
