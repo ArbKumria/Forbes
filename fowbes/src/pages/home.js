@@ -7,9 +7,9 @@ const Home = () => {
     <div className=" main__container"> 
       <img className="logo" src="/images/Fowbes2.png" alt=""/>
       <div className="button">
-        <a href="/pages/about"><button>About</button></a>
-        <a href="/pages/roadmap"><button>Roadmap</button></a>
-        <a href="/pages/buyfowbes"><button>Buy $FOWBES</button></a>
+        <a href="/about"><button>About</button></a>
+        <a href="/roadmap"><button>Roadmap</button></a>
+        <a href="/buyfowbes"><button>Buy $FOWBES</button></a>
       </div>
       <section className="enable-animation">
         <div className="marquee">
