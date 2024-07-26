@@ -6,6 +6,11 @@ const Home = () => {
     return (
     <div className=" main__container"> 
       <img className="logo" src="/images/Fowbes2.png" alt=""/>
+      <div className="button">
+        <a href="./pages/about.js"><button>About</button></a>
+        <a href="./pages/roadmap.js"><button>Roadmap</button></a>
+        <a href="./pages/buyfowbes.js"><button>Buy $FOWBES</button></a>
+      </div>
       <section className="enable-animation">
         <div className="marquee">
           <ul className="marquee__content">
