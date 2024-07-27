@@ -17,9 +17,11 @@ const AboutText = () => {
                     <h1 className="text-about" id="heading">
                         WHY $FOWBES?
                     </h1>
+                    <div style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
                     <p className="text-about" id="body">
-                        Just like the everyday investor has Forbes, memecoins on Solana have Fowbes.
+                        Just like the everyday investor has Forbes, memecoins on Solana have <span className="small-logo-sentence">Fowbes</span>.
                     </p>
+                    </div>
                 </div>
                 
             </div>
