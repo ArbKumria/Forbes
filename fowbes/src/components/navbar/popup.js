@@ -40,7 +40,7 @@ function Popup({ children }) {
                             className="button-drizzy"
                             onClick={handleButtonClick}
                         >
-                            No
+                            Not No
                         </button>
                     )}
                     </section>
