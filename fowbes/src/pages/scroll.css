@@ -162,19 +162,19 @@ body {
 #heading {
     margin-top: 0;
     font-size: 60px;
-    margin-left: 50px;
+    margin-left: 70px;
     font-weight: 1000;
     animation: flash 0.8s ease infinite alternate;
 }
 
 #body {
-    margin-left: 35px;
+    margin-left: 40px;
+    margin-top: 20px;
     position: relative;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transform: translate(-50%, -50%);
-    top: 50%;
     left: 50%;
     z-index: 1;
 }

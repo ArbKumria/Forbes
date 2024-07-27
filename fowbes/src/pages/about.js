@@ -4,7 +4,7 @@ import "./scroll.css";
 
 const About = () => {
     return (
-        <div className="">
+        <div>
     <AboutText />
     </div>
     );
