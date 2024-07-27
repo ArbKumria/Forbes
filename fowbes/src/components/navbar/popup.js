@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import "./popup.css";
 
 function Popup({ children }) {
     
@@ -22,21 +23,28 @@ function Popup({ children }) {
     return (
         <>
             {isOpen && (
-                <dialog open>
+                <dialog open style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     {/* Your modal content */}
-                    <h2>Popup Content</h2>
-                    <p>This is the modal content.</p>
+                    <h2>Do you want to experience financial freedom?</h2>
+                    <section style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
                     {isButtonVisible && (
                         <button
-                            className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-large rounded-lg text-sm px-5 py-1 text-center me-2 mb-1"
+                            className="button-drizzy"
                             onClick={handleButtonClick}
                         >
-                            Click me
+                            Yes
                         </button>
                     )}
-                </dialog>
-                
-                
+                    {isButtonVisible && (
+                        <button
+                            className="button-drizzy"
+                            onClick={handleButtonClick}
+                        >
+                            No
+                        </button>
+                    )}
+                    </section>
+                </dialog>     
             )}
         </>
     );
