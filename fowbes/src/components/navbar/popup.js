@@ -23,10 +23,10 @@ function Popup({ children }) {
     return (
         <>
             {isOpen && (
-                <dialog open style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <dialog open style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} className="Popup">
                     {/* Your modal content */}
-                    <h2>Do you want to experience financial freedom?</h2>
-                    <section style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
+                    <h2 className="question">Do you want to experience financial freedom?</h2>
+                    <section style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }} className="buttons">
                     {isButtonVisible && (
                         <button
                             className="button-drizzy"

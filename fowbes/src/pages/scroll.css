@@ -272,3 +272,35 @@ body {
         }
     }
 }
+
+.fire-text {
+    font-size: 40px;
+    position: relative;
+    color: #ffeb3b;
+    text-shadow: 0 0 10px #ff8c3b,
+    0 0 40px #ff8c3b,
+    0 0 80px #ff8c3b,
+    0 0 160px #ff8c3b,
+    0 0 240px #ff8c3b;
+    filter: url(#fire);
+}
+
+.supply-text {
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.mint-text {
+    font-size: 35px;
+    padding-top: 5px;
+    color: #4D4E50;
+}
+
+svg {
+    width: 0;
+    height: 0;
+}
+
+
+
+
