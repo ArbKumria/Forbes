@@ -283,6 +283,7 @@ body {
     0 0 160px #ff8c3b,
     0 0 240px #ff8c3b;
     filter: url(#fire);
+    padding-bottom: 20px;
 }
 
 .supply-text {
@@ -302,5 +303,17 @@ svg {
 }
 
 
+.slide-right {
+    font-size: 40px;
+    animation: slide 1s ease infinite alternate;
+}
 
+@keyframes slide{
+    0% {
+        transform: translateX(38px);
+    }
+    100% {
+        transform: translateX(-2px);
+    }
+}
 
