@@ -1,0 +1,63 @@
+.button-drizzy {
+    color: white;
+    background: linear-gradient(to right, #0073e6, #0095ff, #00b3ff);
+    
+    &:hover {
+        background: linear-gradient(to bottom right, #0073e6, #00b3ff);
+    }
+    
+    outline: none;
+    display: flex;
+    
+    /* Dark mode focus ring */
+    &.dark:focus {
+        outline: none;
+        box-shadow: 0 0 0 8px #005a99;
+    }
+
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.Popup {
+    margin-top: 50px;
+    padding: 35px;
+}
+
+.question {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: large;
+    animation: glowAndFlash 0.8s ease infinite alternate;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.buttons {
+    font-family: 'Raleway', 'sans-serif';
+    padding-top: 50px;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: "/fonts/static/Raleway-Medium.ttf" format('truetype');
+    /* Add other font formats (e.g., woff, woff2) if available */
+}
+
+@keyframes glowAndFlash {
+    0% {
+        box-shadow: 0 0 5px rgba(1, 17, 109, 0.8);
+        opacity: 1;
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(0, 123, 255, 1);
+        opacity: 0.5;
+    }
+}
