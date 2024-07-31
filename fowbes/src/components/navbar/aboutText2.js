@@ -3,7 +3,8 @@ import REact from "react";
 const AboutText2 = () => {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', gap: '4rem'}}>
-            <div class="box">
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=-Fs2yyaT6o9zpYLn" class="box">
+            <div>
                 <h2>Liquidity</h2>
                 <div>
                     <p className="animate-slidein fire-text">Burnt</p>
@@ -17,18 +18,25 @@ const AboutText2 = () => {
                     </filter>
                 </svg>
             </div>
-            <div class="box">
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=-Fs2yyaT6o9zpYLn" class="box">
+            <div>
                 <h2>Supply</h2>
                 <p className="supply-text">1B Tokens</p>
             </div>
-            <div class="box">
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=-Fs2yyaT6o9zpYLn" class="box">
+            <div>
                 <h2>Mint Authority</h2>
                 <strike style={{ color: 'red' }}><p className="mint-text">Revoked</p></strike>
             </div>
-            <div class="box">
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=-Fs2yyaT6o9zpYLn" class="box">
+            <div>
                 <h2>Tax</h2>
                 <p class="fire-text">0%</p> 
             </div>
+            </a>
         </div>
     );
 };
