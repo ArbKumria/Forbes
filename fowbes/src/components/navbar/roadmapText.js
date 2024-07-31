@@ -6,7 +6,7 @@ const RoadmapText = () => {
             <input type="checkbox" id="c1" />
             <input type="checkbox" id="c2" />
             <input type="checkbox" id="c3" />
-            <div id="cover"><img src="/images/pepe_mag_cover.png" alt="" /></div>
+            <div id="cover"><img src="/images/roadmap_mag_cover.png" alt="" /></div>
             <div class="flip-book">
                 <div class="flip" id="p1">
                     <div class="back">
