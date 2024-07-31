@@ -1,16 +1,11 @@
 import React from "react";
+import RoadmapText from "../components/navbar/roadmapText";
+import "./flipbook.css";
 
 const Roadmap = () => {
     return (
-        <div
-            style={{
-                display: "flex",
-                justifyContent: "centre",
-                alignItems: "centre",
-                height: "100vh",
-            }}
-        >
-            <h1>Roadmap</h1>
+        <div>
+            <RoadmapText />
         </div>
     );
 };
