@@ -6,33 +6,34 @@ const RoadmapText = () => {
             <input type="checkbox" id="c1" />
             <input type="checkbox" id="c2" />
             <input type="checkbox" id="c3" />
-            <div id="cover"><img src="/images/roadmap_mag_cover.png" alt="" /></div>
+            <div id="cover"><img src="/images/f_mag_cover.png" alt="" /></div>
             <div class="flip-book">
                 <div class="flip" id="p1">
                     <div class="back">
-                        <label class="back-btn" for="c1">Back</label>
+                        <img src="/images/roadmap_mag_cover.png" alt="" />
+                        <label class="back-btn" for="c1"><img class="arrow" src="/images/b_arrow.png" alt=""/></label>
                     </div>
                     <div class="front">
-                        <img src="/images/boden_mag_cover.png" alt=""/>
-                        <label class="next-btn" for="c1">Next</label>
+                        <img src="/images/roadmap_mag_cover.png" alt=""/>
+                        <label class="next-btn" for="c1"><img class="arrow" src="/images/n_arrow.png" alt=""/></label>
                     </div>
                 </div>
                 <div class="flip" id="p2">
                     <div class="back">
-                        <label class="back-btn" for="c2">Back</label>
+                        <label class="back-btn" for="c2"><img src="/images/b_arrow.png" alt=""/></label>
                     </div>
                     <div class="front">
                         <img src="/images/ponke_mag_cover.png" alt=""/>
-                        <label class="next-btn" for="c2">Next</label>
+                        <label class="next-btn" for="c2"><img class="arrow" src="/images/n_arrow.png" alt=""/></label>
                     </div>
                 </div>
                 <div class="flip" id="p3">
                     <div class="back">
-                        <label class="back-btn" for="c3">Back</label>
+                        <label class="back-btn" for="c3"><img src="/images/b_arrow.png" alt=""/></label>
                     </div>
                     <div class="front">
                         <img src="/images/duck_mag_cover.png" alt=""/>
-                        <label class="next-btn" for="c3">Next</label>
+                        <label class="next-btn" for="c3"><img class="arrow" src="/images/n_arrow.png" alt=""/></label>
                     </div>
                 </div>
             </div>
