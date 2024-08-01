@@ -16,12 +16,12 @@ img {
 }
 
 #cover {
-    width: 250px;
+    width: 300px;
     height: 400px;
 }
 
 .flip-book {
-    width: 250px;
+    width: 300px;
     height: 400px;
     position: relative;
     perspective: 1500px;
@@ -46,9 +46,7 @@ img {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #ffffff;
     box-sizing: border-box;
-    padding: 0 13px;
     box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,0.5);
 }
 
@@ -67,7 +65,7 @@ img {
 .next-btn {
     position: absolute;
     bottom: 13px;
-    right: 13px;
+    right: 20px;
     cursor: pointer;
     color: #000000;
 }
@@ -75,21 +73,21 @@ img {
 .back-btn {
     position: absolute;
     bottom: 13px;
-    right: 13px;
+    right: 250px;
     cursor: pointer;
     color: #ffffff;
 }
 
 #p1 {
-    z-index: 3px;
+    z-index: 3;
 }
 
 #p2 {
-    z-index: 2px;
+    z-index: 2;
 }
 
 #p3 {
-    z-index: 1px;
+    z-index: 1;
 }
 
 #c1:checked ~ .flip-book #p1 {
@@ -105,4 +103,8 @@ img {
 #c3:checked ~ .flip-book #p3 {
     transform: rotateY(-180deg);
     z-index: 3;
+}
+
+.arrow {
+    width: 30px;
 }
